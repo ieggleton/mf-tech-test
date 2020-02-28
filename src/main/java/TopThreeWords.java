@@ -11,6 +11,10 @@ import static java.util.function.Predicate.not;
 
 public class TopThreeWords {
 
+    private TopThreeWords() {
+        // effectively a utils class
+    }
+
     /**
      * Regex for the splitting of words using the following as terminators...
      * - punctuation
